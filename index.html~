@@ -30,7 +30,7 @@
     <!-- Contacts -->
 <menu class="vertical">
   <button class="msg" onclick="location.href='#'">Top</button>
-  <button class="star" onclick="location.href='https://goo.gl/aLGGu1'"><img src="images/job.png" alt="Job"/></button>
+  <button class="star" onclick="location.href='https://es.linkedin.com/in/dorianhawkmoon'"><img src="images/job.png" alt="Job"/></button>
   <button class="star" onclick="location.href='https://github.com/DorianHawkmoon'"><img src="images/Github.png" alt="GitHub"/></button>  
   <!-- <button class="add" onclick="location.href='#'">Otro</button> -->
 </menu>    
