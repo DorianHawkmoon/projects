@@ -7,6 +7,69 @@ by Jason Costello, @jsncostello
 @import url(pygment_trac.css);
 
 /*******************************************************************************
+Created by CodePen’s Bennett Feely using CSS only. modified by Dorian Hawkmoon
+*******************************************************************************/
+
+
+button { border:0; margin:0; padding:0; }
+
+menu {
+  position: fixed;
+  right:2rem;  
+  z-index: 50;
+  display:-webkit-inline-flex;
+  display:inline-flex;
+  background: #f2f2f2;
+  align-self:center;
+  border-radius:.5rem;
+  margin:1rem;
+}
+menu button img{
+	position: relative;
+  margin: 0 auto;
+  max-width: 739px;
+  padding: px;
+  margin: 0px 0 0px 0;
+  border: 0px solid #ffffff;
+
+  box-shadow: 0 0 0px #ebebeb;
+  -webkit-box-shadow: 0 0 0px #ebebeb;
+  -moz-box-shadow: 0 0 0px #ebebeb;
+  -o-box-shadow: 0 0 0px #ebebeb;
+  -ms-box-shadow: 0 0 0px #ebebeb;
+}
+.vertical { flex-direction:column; }
+
+button {
+  width:100%;
+  flex:1;
+  width:4rem;
+  height:4rem;
+  background: #f2f2f2;
+  font:1.5rem/3rem 'icon';
+  color:#777;
+  transition:.35s;
+  cursor:pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.add { background:#00AEEF; color:#fff; }
+
+.set:hover { color:#333; }
+.star:hover { color:orange; }
+.msg:hover { color:green; }
+.add:hover { background:#008ABD; }
+
+.set:active { color:#fff; background:gray; }
+.star:active { color:#fff; background:orange; }
+.msg:active { color:#fff; background:green; }
+
+button:active { transform:scale(4); opacity:0.15; transition:0; border-radius:8px; }
+
+/*******************************************************************************
 Theme Styles
 *******************************************************************************/
 
@@ -257,11 +320,25 @@ Full-Width Styles
   width: 100%;
 }
 
+.outer-content{
+	padding-right: 8rem;
+}
+
 .inner {
   position: relative;
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
+}
+
+.inner-content {
+  position: relative;
+  max-width: 640px;
+  padding: 20px 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10em;
+  margin-left: auto;
 }
 
 #forkme_banner {
